@@ -14,6 +14,7 @@ class TinderBot():
 
         fb_btn = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/div[2]/button')
         fb_btn.click()
+#change
 
         # switch to login popup
         base_window = self.driver.window_handles[0]
